@@ -52,7 +52,7 @@ export default function MonsterArenaMenu() {
               <div className="absolute inset-x-0 bottom-0 h-[1px] bg-gradient-to-r from-white/0 via-white/80 to-white/0"></div>
 
               <span className="relative text-[18px] font-medium tracking-wide text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)] md:text-[22px]">
-                {location.en}/{location.jp}
+                {location.en} / {location.jp}
               </span>
             </Link>
           ))}
