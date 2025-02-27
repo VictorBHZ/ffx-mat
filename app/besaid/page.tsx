@@ -4,8 +4,8 @@ import { Monster, MonsterGrid } from "@/components/monster-grid"
 
 export default function DjoseRoad() {
 
-    const title = "Djose Road/ジョゼ街道"
-    const slug = "djose-road"
+    const title = "Besaid / ビサイド島"
+    const slug = "besaid"
 
     const monsters: Monster[] = [
         { id: "dingo", name: { en: "Dingo", jp: "ディンゴ" }, image: "/monsters/besaid/dingo.webp" },

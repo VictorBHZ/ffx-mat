@@ -4,7 +4,7 @@ import { Monster, MonsterGrid } from "@/components/monster-grid"
 
 export default function DjoseRoad() {
 
-    const title = "Mushroom Rock Road/キノコ岩街道"
+    const title = "Mushroom Rock Road / キノコ岩街道"
     const slug = "mushroom-rock-road"
 
     const monsters: Monster[] = [

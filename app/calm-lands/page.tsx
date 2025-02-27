@@ -4,7 +4,7 @@ import { Monster, MonsterGrid } from "@/components/monster-grid"
 
 export default function DjoseRoad() {
 
-    const title = "Calm Lands/ナギ平原"
+    const title = "Calm Lands / ナギ平原"
     const slug = "calm-lands"
 
     const monsters: Monster[] = [

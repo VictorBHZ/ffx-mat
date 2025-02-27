@@ -58,7 +58,7 @@ export function MonsterGrid({ monsters, slug }: Props) {
                         <div className="absolute inset-x-0 top-0 h-[1px] bg-gradient-to-r from-white/0 via-white/80 to-white/0"></div>
                         <div className="absolute inset-x-0 bottom-0 h-[1px] bg-gradient-to-r from-white/0 via-white/80 to-white/0"></div>
                         <span className="relative text-[14px] font-medium text-white">
-                            {monster.name.en}/{monster.name.jp}
+                            {monster.name.en} / {monster.name.jp}
                         </span>
                     </div>
 
