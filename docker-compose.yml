@@ -1,0 +1,16 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: mat-ffx-app
+    image: mat-ffx-app
+    env_file:
+      - .env.local
+    volumes:
+      - ./:/code
+    ports:
+      - 3000:3000
+    expose:
+      - 3000
+    command: npm run dev
